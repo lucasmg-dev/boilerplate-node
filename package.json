@@ -1,0 +1,31 @@
+{
+  "name": "boilerplate-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "createdb": "node ./scripts/create-db.js",
+    "dev": "node index.js",
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "knex": "^2.1.0",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@faker-js/faker": "^7.3.0",
+    "babel-jest": "^28.1.2",
+    "babel-plugin-inline-dotenv": "^1.7.0",
+    "cuid": "^2.1.8",
+    "eslint": "^8.19.0",
+    "jest": "^28.1.2",
+    "prettier": "^2.7.1"
+  }
+}
